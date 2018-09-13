@@ -1,8 +1,8 @@
-# Cards
+* Cards
 
-**TODO: Add description**
+CLI card game in Elixir 
 
-## Installation
+** Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `cards` to your list of dependencies in `mix.exs`:
