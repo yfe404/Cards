@@ -4,18 +4,19 @@ CLI card game in Elixir
 
 ** Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `cards` to your list of dependencies in `mix.exs`:
+If [[https://hex.pm/docs/publish][available in Hex]], the package can be installed
+by adding =cards= to your list of dependencies in =mix.exs=:
 
-```elixir
+#+BEGIN_SRC elixir
 def deps do
   [
     {:cards, "~> 0.1.0"}
   ]
 end
-```
+#+END_SRC
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/cards](https://hexdocs.pm/cards).
+
+Documentation can be generated with [[https://github.com/elixir-lang/ex_doc][ExDoc]]
+and published on [[https://hexdocs.pm][HexDocs]]. Once published, the docs can
+be found at https://hexdocs.pm/cards.
 
