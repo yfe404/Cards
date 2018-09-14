@@ -1,6 +1,8 @@
 * Cards
 
-CLI card game in Elixir 
+CLI card game in Elixir.
+
+Documentation: https://yafeunteun.github.io/Cards/api-reference.html
 
 ** Dependencies 
 
