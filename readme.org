@@ -2,6 +2,16 @@
 
 CLI card game in Elixir 
 
+** Dependencies 
+
+- [[https://github.com/elixir-lang/ex_doc%0A][ExDoc]]
+
+Install dependencies with:
+#+BEGIN_SRC sh
+mix deps.get
+#+END_SRC
+
+
 ** Installation
 
 If [[https://hex.pm/docs/publish][available in Hex]], the package can be installed
