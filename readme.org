@@ -1,8 +1,11 @@
 * Cards
 
+[[https://travis-ci.org/yafeunteun/cards][file:https://travis-ci.org/yafeunteun/cards.svg?branch=master]] 
+
 CLI card game in Elixir.
 
 Documentation: https://yafeunteun.github.io/Cards/api-reference.html
+
 
 ** Dependencies 
 
