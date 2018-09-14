@@ -1,6 +1,6 @@
 * Cards
 
-[[https://travis-ci.org/yafeunteun/cards][file:https://travis-ci.org/yafeunteun/cards.svg?branch=master]] 
+[[https://travis-ci.org/yafeunteun/Cards][file:https://travis-ci.org/yafeunteun/Cards.svg?branch=master]] 
 
 CLI card game in Elixir.
 
