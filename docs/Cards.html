@@ -87,6 +87,8 @@ Cards              </h1>
   <div class="summary-signature">
     <a href="#create_deck/0">create_deck()</a>
   </div>
+    <div class="summary-synopsis"><p>Returns a list of strings representing a deck of playing cards</p>
+</div>
 </div>
 <div class="summary-row">
   <div class="summary-signature">
@@ -97,6 +99,10 @@ Cards              </h1>
   <div class="summary-signature">
     <a href="#deal/2">deal(deck, hand_size)</a>
   </div>
+    <div class="summary-synopsis"><p>Divides a deck into a hand and the remainder of the deck.
+The <code class="inline">hand_size</code> parameter indicates how many cards should
+be in the hand</p>
+</div>
 </div>
 <div class="summary-row">
   <div class="summary-signature">
@@ -147,6 +153,7 @@ Cards              </h1>
     <span class="signature">create_deck()</span>
           </div>
   <section class="docstring">
+<p>Returns a list of strings representing a deck of playing cards.</p>
   </section>
 </div>
 <div class="detail" id="create_hand/1">
@@ -169,6 +176,18 @@ Cards              </h1>
     <span class="signature">deal(deck, hand_size)</span>
           </div>
   <section class="docstring">
+<p>Divides a deck into a hand and the remainder of the deck.
+The <code class="inline">hand_size</code> parameter indicates how many cards should
+be in the hand.</p>
+<h2 id="deal/2-examples" class="section-heading">
+  <a href="#deal/2-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+
+<pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">deck</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Cards</span><span class="o">.</span><span class="n">create_deck</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="p" data-group-id="8246714761-1">{</span><span class="n">hand</span><span class="p">,</span><span class="w"> </span><span class="n">deck</span><span class="p" data-group-id="8246714761-1">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Cards</span><span class="o">.</span><span class="n">deal</span><span class="p" data-group-id="8246714761-2">(</span><span class="n">deck</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p" data-group-id="8246714761-2">)</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">hand</span><span class="w">
+</span><span class="p" data-group-id="8246714761-3">[</span><span class="s">&quot;Ace of Spades&quot;</span><span class="p" data-group-id="8246714761-3">]</span></code></pre>
   </section>
 </div>
 <div class="detail" id="load/1">
